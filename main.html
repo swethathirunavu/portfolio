@@ -124,6 +124,8 @@
             box-shadow: 0 20px 60px rgba(59, 130, 246, 0.2);
             animation: float 6s ease-in-out infinite;
             object-fit: cover;
+            object-position: center;
+            background-color: #1a1a2e; /* Fallback background */
         }
 
         @keyframes float {
@@ -189,6 +191,7 @@
             transition: all 0.3s ease;
             border: 2px solid rgba(59, 130, 246, 0.3);
             backdrop-filter: blur(10px);
+            cursor: pointer;
         }
 
         .btn:hover {
@@ -591,6 +594,8 @@
             text-decoration: none;
             font-weight: 600;
             transition: all 0.3s ease;
+            cursor: pointer;
+            border: none;
         }
 
         .contact-btn:hover {
@@ -673,7 +678,12 @@
     <!-- Hero Section -->
     <section id="home" class="hero">
         <div class="hero-content">
-            <img src="https://via.placeholder.com/200x200/3b82f6/ffffff?text=ST" alt="Swetha T" class="profile-img">
+            <!-- Using a reliable image hosting service -->
+            <img src="https://i.imgur.com/YOUR_IMAGE_ID.jpg" alt="Swetha T" class="profile-img">
+            <!-- Alternative placeholder (remove when you have your image) -->
+            <!-- <div class="profile-img" style="background-color: #3b82f6; display: flex; align-items: center; justify-content: center;">
+                <i class="fas fa-user" style="font-size: 4rem; color: white;"></i>
+            </div> -->
             <h1 class="hero-title">Swetha T</h1>
             <p class="hero-subtitle">Machine Learning Engineer • Data Analysis Specialist • Tech Innovator</p>
             <p class="hero-description">
@@ -689,7 +699,7 @@
                     <i class="fas fa-envelope"></i>
                     Get In Touch
                 </a>
-                <a href="#" class="btn" onclick="alert('CV download will be implemented')">
+                <a href="https://drive.google.com/file/d/1T24Cz7J6VVmRWKh3DToTuR6LvfNMeYGA/view?usp=sharing" target="_blank" class="btn">
                     <i class="fas fa-download"></i>
                     Download CV
                 </a>
@@ -998,11 +1008,11 @@
                 <i class="fab fa-linkedin"></i>
                 LinkedIn Profile
             </a>
-            <a href="#" class="contact-btn" onclick="alert('GitHub profile link can be added here')">
+            <a href="https://github.com/swethathirunavu" target="_blank" class="contact-btn">
                 <i class="fab fa-github"></i>
-                GitHub
+                GitHub Profile
             </a>
-            <a href="#" class="contact-btn" onclick="alert('Resume download will be implemented')">
+            <a href="https://drive.google.com/file/d/1T24Cz7J6VVmRWKh3DToTuR6LvfNMeYGA/view?usp=sharing" target="_blank" class="contact-btn">
                 <i class="fas fa-download"></i>
                 Download Resume
             </a>
